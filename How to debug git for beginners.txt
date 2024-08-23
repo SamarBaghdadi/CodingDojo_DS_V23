@@ -1,3 +1,10 @@
+Ok so the first steps to connect are:
+git init
+git add .
+git remote add origin https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git
+git commit -m "verbose"
+git push -u origin master
+
 Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop
 $ cd CodingDojo_DS_V23/
 
