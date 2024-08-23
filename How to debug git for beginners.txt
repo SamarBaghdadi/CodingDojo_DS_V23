@@ -1,0 +1,215 @@
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop
+$ cd CodingDojo_DS_V23/
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23
+$ ls
+ Conditionals_Practice_STARTER_NOTEBOOK.ipynb         'Loops_Exercise_(Practice).ipynb'
+ Data_Cleaning_Core_Starter_Notebook.ipynb             NumPy_Bakery_Starter_Notebook_v2_1.ipynb
+ Data_Visualization_Core_Starter_Notebook.ipynb        Practice_Lists_and_Tuples.ipynb
+ Debugging_Exercise_STARTER.ipynb                      README.md
+ Dictionaries.ipynb                                    SOLUTIONS_Dictionaries.ipynb
+ For_Loops_Core_Starter_Notebook.ipynb                 SOLUTIONS_Practice_Lists_and_Tuples.ipynb
+'Functions_Assignment_(Core)_STARTER_NOTEBOOK.ipynb'   SOLUTION_Conditionals_Practice.ipynb
+ Headers.ipynb                                         SOLUTION_Debugging_Exercise.ipynb
+ Images/                                               SOLUTION_Indexing_and_Slicing.ipynb
+ Indexing_and_Slicing.ipynb                            SOLUTION_Indexing_and_Slicing_Dictionaries.ipynb
+ Indexing_and_Slicing_Dictionaries_STARTER.ipynb      'SOLUTION_Loops_Exercise_(Practice).ipynb'
+ Insurance_Data_Starter_Notebook.ipynb                 SOLUTION_Variables_and_Primitive_Data_Types.ipynb
+ LICENSE                                              'Variables_and_Primitive_Data_Types-STARTER NOTEBOOK.ipynb'
+ Loading_Data_Starter_Notebook.ipynb
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23
+$ git init
+Initialized empty Git repository in C:/Users/neiro/Desktop/CodingDojo_DS_V23/.git/
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git add .
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git remote add origin https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git'
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git push -u origin https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git
+fatal: invalid refspec 'https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git'
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git'
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git remote-v
+git: 'remote-v' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote-fd
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git remote -v
+origin  https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git (fetch)
+origin  https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git (push)
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git'
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git pull --rebase
+fatal: Updating an unborn branch with changes added to the index.
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git pull --rebase origin https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git
+fatal: Updating an unborn branch with changes added to the index.
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git pull origin https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git
+fatal: invalid refspec 'https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git'
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (master)
+$ git symbolic-ref HEAD refs/heads/new-main-branch
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git'
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ git pull --rebase origin https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git
+fatal: Updating an unborn branch with changes added to the index.
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ ^C
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ git commit -m "first commit"
+[new-main-branch (root-commit) 477bd61] first commit
+ 27 files changed, 14330 insertions(+)
+ create mode 100644 Conditionals_Practice_STARTER_NOTEBOOK.ipynb
+ create mode 100644 Data_Cleaning_Core_Starter_Notebook.ipynb
+ create mode 100644 Data_Visualization_Core_Starter_Notebook.ipynb
+ create mode 100644 Debugging_Exercise_STARTER.ipynb
+ create mode 100644 Dictionaries.ipynb
+ create mode 100644 For_Loops_Core_Starter_Notebook.ipynb
+ create mode 100644 Functions_Assignment_(Core)_STARTER_NOTEBOOK.ipynb
+ create mode 100644 Headers.ipynb
+ create mode 100644 Images/Data Science Thumbnail.png
+ create mode 100644 Indexing_and_Slicing.ipynb
+ create mode 100644 Indexing_and_Slicing_Dictionaries_STARTER.ipynb
+ create mode 100644 Insurance_Data_Starter_Notebook.ipynb
+ create mode 100644 LICENSE
+ create mode 100644 Loading_Data_Starter_Notebook.ipynb
+ create mode 100644 Loops_Exercise_(Practice).ipynb
+ create mode 100644 NumPy_Bakery_Starter_Notebook_v2_1.ipynb
+ create mode 100644 Practice_Lists_and_Tuples.ipynb
+ create mode 100644 README.md
+ create mode 100644 SOLUTIONS_Dictionaries.ipynb
+ create mode 100644 SOLUTIONS_Practice_Lists_and_Tuples.ipynb
+ create mode 100644 SOLUTION_Conditionals_Practice.ipynb
+ create mode 100644 SOLUTION_Debugging_Exercise.ipynb
+ create mode 100644 SOLUTION_Indexing_and_Slicing.ipynb
+ create mode 100644 SOLUTION_Indexing_and_Slicing_Dictionaries.ipynb
+ create mode 100644 SOLUTION_Loops_Exercise_(Practice).ipynb
+ create mode 100644 SOLUTION_Variables_and_Primitive_Data_Types.ipynb
+ create mode 100644 Variables_and_Primitive_Data_Types-STARTER NOTEBOOK.ipynb
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$  git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git'
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$  git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git'
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ ^C
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ git add .
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$  git commit -m "second commit"
+On branch new-main-branch
+nothing to commit, working tree clean
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ git remote add origin https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git
+error: remote origin already exists.
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ git commit -m "third commit"
+On branch new-main-branch
+nothing to commit, working tree clean
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ git push --rebase origin master
+error: unknown option `rebase'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --force-if-includes   require remote updates to be integrated locally
+    --recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git'
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ git show-ref
+477bd612aaf4b4946c77721bf678054f6f8d436f refs/heads/new-main-branch
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
+$ git push origin new-main-branch
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (30/30), 81.69 KiB | 8.17 MiB/s, done.
+Total 30 (delta 16), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (16/16), done.
+remote:
+remote: Create a pull request for 'new-main-branch' on GitHub by visiting:
+remote:      https://github.com/SamarBaghdadi/CodingDojo_DS_V23/pull/new/new-main-branch
+remote:
+To https://github.com/SamarBaghdadi/CodingDojo_DS_V23.git
+ * [new branch]      new-main-branch -> new-main-branch
+
+Samar BAGHDADI@LAPTOP-DSNQGTC7 MINGW64 ~/Desktop/CodingDojo_DS_V23 (new-main-branch)
